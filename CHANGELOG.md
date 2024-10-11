@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/glencostiganFDC/testrepo/compare/v1.1.0...v1.1.1) (2024-10-11)
+
+
+### Bug Fixes
+
+* change release type to node release please ([#9](https://github.com/glencostiganFDC/testrepo/issues/9)) ([4fa4def](https://github.com/glencostiganFDC/testrepo/commit/4fa4def428ef879a9dd162990acefb98d13925db))
+
 ## [1.1.0](https://github.com/glencostiganFDC/testrepo/compare/v1.0.0...v1.1.0) (2024-10-11)
 
 
