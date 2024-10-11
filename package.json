@@ -4,18 +4,30 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "commit": "cz"
+    "commit": "cz",
+    "prepare": "husky"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "commitizen": "^4.3.1",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
     }
   }
 }
