@@ -5,7 +5,7 @@
   "scripts": {
     "test": "",
     "commit": "cz",
-    "prepare": "husky"
+    "prepare": "husky && git config --local core.editor cat"
   },
   "author": "",
   "license": "ISC",
