@@ -1,1 +1,12 @@
+#!/bin/sh
+
+# Get the current branch name
+BRANCH_NAME=$(git symbolic-ref --short HEAD)
+
+# Check if the current branch is 'master'
+if [ "$BRANCH_NAME" = "master" ]; then
+    echo "Error: Commits are not allowed directly on the master branch." >&2
+    exit 1
+fi
+
 exec < /dev/tty && npx cz --hook || true
