@@ -29,5 +29,8 @@
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
     }
+  },
+  "dependencies": {
+    "mime": "^2.6.0"
   }
 }
