@@ -25,12 +25,11 @@
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
-    }
-  },
   "dependencies": {
     "mime": "^4.0.4"
+  },
+  "engines": {
+    "node": ">=20.18.0",
+    "npm": ">=10.8.2"
   }
 }
