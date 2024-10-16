@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/glencostiganFDC/testrepo/compare/v1.2.0...v1.3.0) (2024-10-16)
+
+
+### Features
+
+* setup eslint ([#26](https://github.com/glencostiganFDC/testrepo/issues/26)) ([9d596eb](https://github.com/glencostiganFDC/testrepo/commit/9d596ebc34d81ef7525bb700f7851a972cc0e8b1))
+
 ## [1.2.0](https://github.com/glencostiganFDC/testrepo/compare/v1.1.1...v1.2.0) (2024-10-14)
 
 
